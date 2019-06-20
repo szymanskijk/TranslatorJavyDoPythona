@@ -1,0 +1,21 @@
+# Generated File
+
+a = 10
+b = 15
+c = a + b
+mul = a * c
+div = c / b
+if(a > b):
+  a = b / 10
+  c = a * 40
+  return c
+elseif(a > b):
+  a = b * 20
+  return a
+else:
+  return a
+for temp in range(10,30):
+  if(temp > a):
+      return temp
+  temp = temp * a
+  return temp

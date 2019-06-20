@@ -1,0 +1,26 @@
+int a = 10;
+int b = 15;
+int c = a + b;
+int mul = a * c;
+int div = c / b;
+
+if( a > b){
+    a = b / 10;
+    c = a * 40;
+    return c;
+}
+elseif( a > b){
+    a = b * 20;
+    return a;
+}
+else{
+    return a;
+}
+
+for( int temp = 10; temp < 30; temp++){
+    if( temp > a){
+        return temp;
+    }
+    temp = temp * a;
+    return temp;
+}
